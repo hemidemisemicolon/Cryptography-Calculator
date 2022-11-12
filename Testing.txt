@@ -1,0 +1,504 @@
+All ciphers tested here come from the following sources:
+https://scioly.org/wiki/index.php/Codebusters
+https://toebes.com/codebusters/TestAnswers.html?test=81
+http://www.davidjekel.com/uw_honors/336project.pdf
+
+ssong@HS-Student27747 Final Project % javac Main.java
+ssong@HS-Student27747 Final Project % java Main
+CRYPTOGRAPHY CALCULATOR
+1.   Affine cipher
+2.   Hill cipher
+3.   Vigenere cipher
+4.   Exit
+Your choice: 1
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 1x + 1
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 1 
+Enter the coefficient for the equation: 9
+Enter the constant for the equation: 42
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 9x + 42
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 3
+Enter a message to encrypt: codebusters
+Encrypted message: IMRAZOWFANW
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 9x + 42
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 4
+Enter a message to decrypt: IMRAZOWFANW
+Encrypted message: CODEBUSTERS
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 9x + 42
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 2
+Enter the first plaintext character: e
+Enter the first ciphertext character: c
+Enter the second plaintext character: d
+Enter the second ciphertext character: x
+Equation: y = 5x + 8
+Store this equation? (yes or no)
+yes
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 5x + 8
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 4
+Enter a message to decrypt: CXWZ ZRC OWGW
+Encrypted message: EDITTHEWIKI
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 5x + 8
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 2
+Enter the first plaintext character: i
+Enter the first ciphertext character: q
+Enter the second plaintext character: c
+Enter the second ciphertext character: c
+Equation: y = 11x + 6
+Store this equation? (yes or no)
+yes
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 11x + 6
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 4
+Enter a message to decrypt: reemw gly g stqasyxk pelhgrxy iguqc
+Encrypted message: BOOKSAREAUNIQUELYPORTABLEMAGIC
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 11x + 6
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 1
+Enter the coefficient for the equation: 9
+Enter the constant for the equation: 12
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 9x + 12
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 3
+Enter a message to encrypt: quiet people have the loudest minds
+Encrypted message: AKGWBRWIRHWXMTWBXWHIKNWSBQGZNS
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 9x + 12
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 1
+Enter the coefficient for the equation: 17
+Enter the constant for the equation: 5
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 17x + 5
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 4
+Enter a message to decrypt: avfnv wvdlsz puvs vgavnqfqljsz vse
+Encrypted message: PEACEBEGINSWHENEXPECTATIONSEND
+Enter anything to continue: 
+
+AFFINE CIPHER CALCULATOR
+Current affine equation:
+y = 17x + 5
+Options:
+1. Set an equation
+2. Find an equation
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 5
+
+CRYPTOGRAPHY CALCULATOR
+1.   Affine cipher
+2.   Hill cipher
+3.   Vigenere cipher
+4.   Exit
+Your choice: 2
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   0   0|
+|   0   0|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 2
+Enter a word with a square number of letters: wiki
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|  22   8|
+|  10   8|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 3
+Enter a message to encrypt: science olympiad
+Encrypted message: WOAIQQSWSQUGUCGW
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|  22   8|
+|  10   8|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 2
+Enter a word with a square number of letters: beeflybug
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   1   4   4|
+|   5  11  24|
+|   1  20   6|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 3
+Enter a message to encrypt: edit the wiki
+Encrypted message: WLITEZUMYMKI
+Enter anything to continue:
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   1   4   4|
+|   5  11  24|
+|   1  20   6|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 2   
+Enter a word with a square number of letters: goldfinch
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   6  14  11|
+|   3   5   8|
+|  13   2   7|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 4
+Enter a message to decrypt: iostfkmwmbtmjrdxalkzjfce
+Encrypted message: MYSTERYISNEVERDISPROOFZZ
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   6  14  11|
+|   3   5   8|
+|  13   2   7|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 1
+Size of hill matrix: 
+2
+Enter integer #1: 4
+Enter integer #2: 13
+Enter integer #3: 21
+Enter integer #4: 24
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   4  13|
+|  21  24|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 4
+Enter a message to decrypt: DMICUGWKXGTQQQUAIMQYZN
+Encrypted message: EXCUSEMEWHILEISUCCEEDZ
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   4  13|
+|  21  24|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 5
+Enter a plaintext with a square number of letters: thhe
+Enter a CORRESPONDING ciphertext with the same number of letters: khxw
+Key matrix:
+|   9   3|
+|   4   5|
+
+Keyword: JDEF
+Store this matrix? (yes or no)
+yes
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   9   3|
+|   4   5|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 4
+Enter a message to decrypt: SONAFQCHMWPTVEVY
+Encrypted message: SENATORTOOKBRIBE
+Enter anything to continue: 
+
+HILL CIPHER CALCULATOR
+Current hill matrix:
+|   9   3|
+|   4   5|
+
+Options:
+1. Set an encryption matrix using integers
+2. Set an encryption matrix using a word
+3. Encrypt a message using the stored encryption matrix
+4. Decrypt a message using the inverse of this stored encryption matrix
+5. Input a plaintext and a corresponding ciphertext to find an encryption matrix
+6. Back to main menu
+Your option: 6
+
+CRYPTOGRAPHY CALCULATOR
+1.   Affine cipher
+2.   Hill cipher
+3.   Vigenere cipher
+4.   Exit
+Your choice: 3
+
+VIGENERE CIPHER CALCULATOR
+Current vigenere keyword:
+A
+Options:
+1. Set a keyword
+2. Find a keyword
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 1
+Enter a new vigenere keyword: scioly
+Enter anything to continue: 
+
+VIGENERE CIPHER CALCULATOR
+Current vigenere keyword:
+SCIOLY
+Options:
+1. Set a keyword
+2. Find a keyword
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 3
+Enter a message to encrypt: science olympiad is cool
+Encrypted message: KEQSYAWQTMXNACLWDAGQT
+Enter anything to continue: 
+
+VIGENERE CIPHER CALCULATOR
+Current vigenere keyword:
+SCIOLY
+Options:
+1. Set a keyword
+2. Find a keyword
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 1
+Enter a new vigenere keyword: mind
+Enter anything to continue: 
+
+VIGENERE CIPHER CALCULATOR
+Current vigenere keyword:
+MIND
+Options:
+1. Set a keyword
+2. Find a keyword
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 4
+Enter a message to decrypt: MTJDKASREBRUMVQJDWJWTIGXZYHHZKUDNTRFGZVREQGBANLRGZF
+Encrypted message: ALWAYSFOSTERANDGROWTHATUNQUENCHABLECURIOSITYOFYOURS
+Enter anything to continue: 
+
+VIGENERE CIPHER CALCULATOR
+Current vigenere keyword:
+MIND
+Options:
+1. Set a keyword
+2. Find a keyword
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 2
+Enter the plaintext: libr
+Enter the ciphertext: emou
+Keyword: TEND
+Store this keyword? (yes or no)
+yes
+Enter anything to continue: 
+
+VIGENERE CIPHER CALCULATOR
+Current vigenere keyword:
+TEND
+Options:
+1. Set a keyword
+2. Find a keyword
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 4
+Enter a message to decrypt: bj lrn lnyx e tdkhrq trq d emoutvl bhy udoi ryxvlwamaj rsh qxiq
+Encrypted message: IFYOUHAVEAGARDENANDALIBRARYYOUHAVEEVERYTHINGYOUNEED
+Enter anything to continue: 
+
+VIGENERE CIPHER CALCULATOR
+Current vigenere keyword:
+TEND
+Options:
+1. Set a keyword
+2. Find a keyword
+3. Encrypt a message
+4. Decrypt a message
+5. Back to main menu
+Your option: 5
+
+CRYPTOGRAPHY CALCULATOR
+1.   Affine cipher
+2.   Hill cipher
+3.   Vigenere cipher
+4.   Exit
+Your choice: 4
+
+
+System has been closed.
